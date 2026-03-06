@@ -1,0 +1,8 @@
+name: flaskapp
+
+services:
+  server:
+    build:
+      context: .
+    ports:
+      - "5000:5000"
